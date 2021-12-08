@@ -1,5 +1,7 @@
 # DBW
 
+###DB Path is configured to: "C:\xampp\server\sqlite\dbw-assignment-db"
+
 ## ABC Bank
 Example bank campaign application, Replit friendly.
 
