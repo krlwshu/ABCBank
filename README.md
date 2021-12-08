@@ -23,8 +23,8 @@ Built in PHP, using SQLITE.
 
 ## Report
 
-![alt text](https://github.com/krlwshu/abcbank_replit/blob/main/report.png?raw=true)
+![alt text](https://github.com/krlwshu/ABCBank/blob/main/report.png?raw=true)
 
 ## Update Application
 
-![alt text](https://github.com/krlwshu/abcbank_replit/blob/main/custeditapp.png?raw=true)
+![alt text](https://github.com/krlwshu/ABCBank/blob/main/custeditapp.png?raw=true)
