@@ -1,0 +1,57 @@
+/* Login page CSS 
+
+Retain some of the original themes such as linear gradient buttons.
+
+*/
+
+
+body{
+    background-color: lightgray;
+}
+
+input[type=text],
+input[type="password"] {
+    margin-top: 1rem;
+}
+
+
+button {
+    background-image: linear-gradient(to bottom, #ff0000 0%, #910707 51%, #ff0000 100%);
+    color: white;
+    border: none;
+    width: 12rem;
+    height: 2rem;
+    margin-top: 2rem;
+}
+
+button:hover {
+    background-position: right center !important;
+}
+
+
+.login-section{
+    padding-top:10rem;
+}
+
+body {
+    background-image: url("../img/tile.png");
+    background-repeat: repeat; 
+    background: #0c0c0c0d;
+  }
+
+.login-section{
+    background-color: white;
+    margin-top: 2rem;
+    padding:3rem;
+    border-radius: 5px;
+}
+
+
+::-webkit-input-placeholder {
+    font-style: italic;
+    color: rgba(73, 71, 71, 0.3) !important;
+}
+
+.login{
+    text-align: center;
+}

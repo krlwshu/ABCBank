@@ -1,0 +1,288 @@
+@media only screen and (min-width:2560px) {
+    .container {
+        min-width: 1700px !important;
+    }
+}
+
+/* display: inline-block; */
+
+html,
+body {
+    margin: 0;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+/* Italic Placeholders */
+
+
+::-webkit-input-placeholder {
+    font-style: italic;
+    color: rgba(139, 139, 139, 0.3) !important;
+}
+
+
+/* Nav Menu */
+
+.top-nav {
+    background-color: rgb(53, 53, 53);
+    height: 2rem;
+}
+
+.top-nav>* a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.top-nav>* li:hover {
+    text-decoration: underline;
+}
+
+/* Second Nav */
+nav:nth-child(2) >* .nav-item{
+    transition: 0.3s;
+    padding:0 2rem 0 2rem;
+    border-left: solid 1px rgb(236, 236, 236);
+    border-right: solid 1px rgb(236, 236, 236);
+}
+nav:nth-child(2) >* .nav-item:hover{
+    background-color: rgb(190, 190, 190);
+    transition: 0.3s;
+    color:white;
+}
+
+
+
+
+/* Logos */
+.logo {
+    height: 2rem;
+    padding-left: 24px;
+}
+
+/* Box */
+
+.box-promo {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://www.hsbc.co.uk/content/dam/hsbc/gb/vam/21-9/2948-trying-on-beret-clothing-stall-cass-933x400.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+.box-promo-register {
+
+    width: 60%;
+    max-height: 70%;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    padding: 2rem;
+    left: 4rem;
+    top: 2rem;
+}
+
+
+/* Card on home page */
+.card-bulletin{
+    background-color: #3e505d;
+    color:white;
+    height:12rem;
+    border-radius: 0px;
+}
+
+.card-bulletin >* a{
+    text-decoration:none;
+    color:white;
+}
+
+/* 
+ul > li {
+    padding-right: 1rem;
+} */
+
+.top-nav {
+    font-size: 12px;
+}
+
+.item-red {
+    background-color: red;
+    color: white !important;
+}
+
+
+
+/* General UI tweaks */
+
+.form-row {
+    padding-bottom: 5rem;
+}
+
+
+.apply a {
+    box-shadow: none;
+    outline: none;
+    background-color: red;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    width: 12rem;
+    height: 3rem;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 0.5rem;
+    border: none;
+}
+
+
+/* Animation */
+
+.form-row {
+    opacity: 0.5;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+}
+
+.form-row {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
+
+
+/* Form Styling */
+
+
+
+
+
+/* Footer  */
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* registration-container - response message */
+
+.registration-container {
+
+    padding-top: 2rem;
+}
+
+
+
+/* Update Application Form */
+
+.update-app-container, .register-frm{
+    padding-top:3rem;
+}
+
+
+select, option:checked, input{
+    font-weight:600 !important;
+}
+
+
+
+
+input[type=submit],.btn-user-update {
+    background-image: linear-gradient(to bottom, #ff0000 0%, #910707 51%, #ff0000 100%);
+    color: white;
+    border: none;
+    width: 12rem;
+    height: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+/* Panel Styling */
+
+
+.panel-default {
+    background-color: white;
+    padding: 3rem;
+    margin-bottom: 5rem;
+}
+
+
+
+/* Button style hrefs */
+
+.btn-link {
+    text-decoration: none;
+    padding: 0.3rem;
+    border-radius: 2px;
+    color:white;
+    visibility: hidden;
+}
+
+.btn-link-upd{
+    background-color: rgb(0, 162, 255);
+}
+.btn-link-del{
+    background-color: rgb(255, 32, 32);
+    border: none;
+}
+
+.btn-link-del:hover{
+    background-color: rgb(255, 4, 4);
+}
+
+.btn-link-upd:hover{
+    background-color: rgb(13, 125, 190);
+}
+
+.btn:disabled{
+    background-color: grey;
+    font-style: italic;
+    cursor: not-allowed;
+    pointer-events: all !important;    
+}
+
+tr:hover .btn-link{
+    visibility: visible;
+    color:white;
+}
+
+/* Table styling */
+
+tbody > tr:hover{
+    background-color: rgba(139, 139, 139, 0.3);
+    transition: 0.2s;
+}
+
+tr{
+    transition: all 0.6s ease-out;
+}
+
+/* Modal overrides */
+.modal {
+    text-align: center;
+}
+
+.modal-footer{
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+.btn-outline-danger:hover {
+    background-color: unset;
+    color:red;
+}
+.btn-confirm-cancel:hover{
+    background-color: unset !important;
+    color:greenyellow;
+}
+
+
+
